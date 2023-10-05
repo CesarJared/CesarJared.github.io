@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&display=swap');
+
+:root{
+    --colorHeader: #2f4858;
+    --colorFondo: #A3D5FF;
+    --color3: rgb(238, 254, 255);
+    --colorAside: #33658A;
+    --colorTexto: #2d2d2d;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--colorFondo);
+    height: calc(105hv + 70px);
+}
+
+header{
+    height: 70px;
+    background-color: var(--colorHeader);
+    float: left;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+header>nav{
+
+    width: 240px;
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+header>nav>a>img{
+    width: 100%;
+    height: 100%;
+}
+
+header>div{
+    margin-left: 20px;
+}
+
+header>div>ul{
+    list-style: none;
+    margin-top: 15px;
+    
+}
+
+header>div>ul>li{
+    float: left;
+    margin: 10px;
+    font-size: 1.2rem;
+}
+
+header>div>ul>li>a{
+    color: var(--color3);
+    text-decoration: none;
+}
+
+aside{
+    margin-top: 70px;
+    background-color: var(--colorAside);
+    width: 15%;
+    height: 100vh;
+    float: left;
+}
+
+aside>ul{
+    list-style: none;
+    margin: 20px;
+}
+
+aside>ul>li{
+    margin-top: 10px;
+}
+
+aside>ul>li>a{
+    color: var(--color3);
+    text-decoration: none;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    
+}
+
+main{
+    height: 95vh;
+    width: 85%;
+    float: left;
+    background-color: var(--color3);
+    margin-top: calc(70px + 5vh);
+}
+
+
+main>section#PImg{
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+
+}
+
+main>section#PImg>img{
+    margin-left: 55px;
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+main>section#PImg>div{
+    float: left;
+    margin-left: 20px;
+    margin-top: 70px;
+}
+
+main>section#POpc{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+
+}
+
+main>section#POpc>ul{
+    list-style: none;
+    
+}
+
+main>section#POpc>ul>li{
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+main>section#POpc>ul>li>a{
+    text-decoration: none;
+}
+
+.agrPro{
+    height: 95vh;
+    width: 85%;
+    float: left;
+    background-color: var(--color3);
+    margin-top: calc(70px + 5vh);
+}
+
+main.agrPro>section{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+main.agrPro>section>h2{
+    float: left;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+main.agrPro>section>img{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+main.agrPro>section>div{
+    width: 50%;
+    float: left;
+}
+
+main.agrPro>section>div>p{
+margin-top: 30px;
+margin-left: 40px;
+}
+
+main.agrPro>section>div>input{
+    margin-left: 40px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    padding: 3px;
+
+    height: 20px;
+}
+
+main.agrPro>section>div>input#ProNom{
+    width: 500px;
+}
+
+main.agrPro>section>div>input#ProPre{
+    width: 200px;
+}
+
+main.agrPro>section>div>input#ProDes{
+    width: 800px;
+    height: 500px;
+}
+
+main.agrPro>section>div>a{
+    display: block;
+    width: 100px;
+    height: 37px;
+    color: var(--colorTexto);
+    float: left;
+    background-color: #33658A;
+    margin-top: 450px;
+    margin-left: 250px;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 10px;
+    border-radius: 10px;
+    color: var(--color3);
+}
