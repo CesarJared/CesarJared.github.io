@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <input type="number" id="txtNumero" value="10">
+    <button id="btnAceptar">Aceptar</button>
+    <script>
+        //alert("Hola Mundo")
+        //console.log("Hola Mundo")
+
+        var txtNumero=document.getElementById("txtNumero")
+        var btn = document.getElementById("btnAceptar")
+
+        btn.addEventListener('click', ()=>{
+            let x=txtNumero.value
+
+            if(x<18){
+                alert("Eres menor de edad y has vivido "+(x*365))
+            }else if(x>=18 && x<=60){
+                alert("Eres mayor de edad y has vivido "+(x*365))
+            }else{
+                alert("Eres viejillo y has vivivo "+(x*365))
+            }
+
+            btn.style.backgroundColor="#f00"
+        })
+    </script>
+    
+</body>
+</html>
