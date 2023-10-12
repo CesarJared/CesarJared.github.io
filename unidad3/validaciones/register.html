@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,38 +11,40 @@
         <h2>Regitro</h2>
         <form>
             <div class="user-box">
-                <input type="text" name="" required="">
+                <input type="text" name="" id="txtNombre">
                 <label>Nombre</label>
             </div>
             <div class="user-box">
-                <input type="text" name="" required="">
+                <input type="text" name="" id="numTelefono">
                 <label>Teléfono</label>
             </div>
             <div class="user-box">
-                <input type="number" name="" required="">
+                <input type="number" name="" id="numEdad">
                 <label>Edad</label>
             </div>
             <div class="user-box">
-                <input type="email" name="" required="">
+                <input type="email" name="" id="txtEmail">
                 <label>Email</label>
             </div>
             <div class="user-box">
-                <input type="password" name="" required="">
+                <input type="password" name="" id="txtPass1">
                 <label>Password</label>
             </div>
             <div class="user-box">
-                <input type="password" name="" required="">
+                <input type="password" name="" id="txtPass2">
                 <label>Confirmar password</label>
             </div>
-            <button type="submit">
+            <button type="submit" id="btnRegister">
                 <span></span>
                 <span></span>
                 <span></span>
                 <span></span>
                 Submit
             </button>
+            <div id="alert">Error</div>
+            <div id="alertSuccess">Datos correctos</div>
         </form>
       </div>
-
+      <script src="./js/validacionregister.js"></script>
 </body>
 </html>
