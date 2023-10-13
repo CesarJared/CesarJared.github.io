@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#mensajes{
+    width: 300px;
+    height: 500px;
+    margin: 50px;
+    margin-bottom: 10px;
+    background-color: #5d5d5d;
+    color: rgb(240, 240, 240);
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+#mensajes li{
+    list-style: none;
+    min-height: 50px;
+}
+
+#mensajes li div{
+     padding: 10px;
+    width: 50%;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#mensajes li:nth-child(even) div{
+    background-color: rgb(179, 101, 0);
+    float: right;
+}
+
+#mensajes li:nth-child(odd) div{
+    background-color: rgb(14, 167, 78);
+    float: left;
+}
+
+#txtMensaje{
+    height: 30px;
+    padding: 5px;
+    width: 300px;
+    margin-left: 50px;
+    background-color: #5d5d5d;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
