@@ -24,10 +24,9 @@
                     todo+=`<li><div>${txtMensaje.value}</div></li>`
                     txtMensaje.value=""
                 mensajes.innerHTML=todo.trim()
+                mensajes.scrollTop=mensajes.scrollHeight;
                 }
             })
-
-            mensajes.scrollTop=mensajes.scrollHeight;
         }
     </script>
 </body>
