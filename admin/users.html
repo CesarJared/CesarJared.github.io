@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!--HEADER-->
+    <header>
+        <nav class="px-4 navbar navbar-expand-lg bg-body-tertiary bg-primary-subtle" data-bs-theme="dark" >
+            <div class="container-fluid" >
+              <a class="navbar-brand" href="#"><i class="fa fa-computer"></i> PCDomino</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!--END HEADER-->
+    <div class="row">
+        <!--MENU-->
+        <aside class="col-md-2 p-4" style="background-color: #c4c4c4; height:92.5vh;">
+            <ul class="nav flex-column">
+                <li class="nav-item fs-5">
+                  <a class="nav-link active text-muted" aria-current="page" href="#">
+                    <i class="fa fa-home mx-2" style="width: 25px;"></i> Inicio
+                  </a>
+                </li>
+                <li class="nav-item fs-5">
+                    <a class="nav-link text-muted" href="#">
+                        <i class="fa fa-bag-shopping mx-2" style="width: 25px;"></i> Productos
+                    </a>
+                </li>
+                <li class="nav-item fs-5">
+                    <a class="nav-link text-muted" href="#">
+                        <i class="fa fa-users mx-2" style="width: 25px;"></i> Usuarios
+                    </a>
+                </li>
+              </ul>
+        </aside>
+        <!--END MENU-->
+        <!--MAIN CONTAINER-->
+        <main class="col-10">
+            <h1 class="text-center mt-5">Registrarse</h1>
+            <div class="row">
+                <form action="">
+                    <div class="mb-3 col-6 mx-auto">
+                        <label for="txtNombre" class="form-label">Nombre del usuario</label>
+                        <input type="text" placeholder="Introduce nombre de usuario" class="form-control" id="txtNombre" aria-describedby="emailHelp">
+                    </div>
+
+                    <div class="mb-3 col-6 mx-auto">
+                        <label for="txtPrecio" class="form-label">Email</label>
+                        <input type="email" min="1" placeholder="Introduce el correo electronico" class="form-control" id="txtPrecio" aria-describedby="emailHelp">
+                    </div>
+
+                    <div class="mb-3 col-6 mx-auto">
+                        <label for="txtContraseña" class="form-label">Contraseña</label>
+                        <input type="password" min="1" placeholder="Introduce contraseña" class="form-control" id="txtContraseña" aria-describedby="emailHelp">
+                    </div>
+
+                    <div class="mb-3 col-6 mx-auto">
+                        <label for="txtConfirmar" class="form-label">Confirmar contraseña</label>
+                        <input type="password" min="1" placeholder="Introduce contraseña" class="form-control" id="txtConfirmar" aria-describedby="emailHelp">
+
+                    </div>
+                    
+                    <div class="mb-3 col-6 mx-auto">
+                        <label for="txtFile" class="form-label">Subir foto</label>
+                        <input type="file" min="1" placeholder="Introduce cantidad" class="form-control" id="txtFile" aria-describedby="emailHelp">
+                    </div>
+                    
+                    <div class="mb-3 col-6 mx-auto">
+                        <button class="btn btn-dark float-end">
+                            Aceptar
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </main>
+        <!--END MAIN CONTAINER-->
+    </div>
+
+</body>
+</html>
