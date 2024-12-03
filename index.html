@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Portafilio web</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/comp.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Modal videos -->
+        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" onclick="pausarVid()">
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">MisCuentas</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="pausarVid()"></button>
+                </div>
+                <div class="modal-body p-1">
+                    <video width="100%" controls id="video1">
+                        
+                    </video>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="pausarVid()">Cerrar</button>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Cesar Jared Quiñones Nevarez</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">Sobre mi</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Educacion</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Proyectos</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Cesar Jared
+                        <span class="text-primary">Quiñones Nevarez</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        5 de Febrero, Casas grandes, La Esperanza: 1209 · +52 636 700 8218 ·
+                        <a href="mailto:21CG0076@itsncg.edu.mx">21CG0076@itsncg.edu.mx</a>
+                    </div>
+                    <p class="lead mb-5">Estudiante de Ingeniería en Sistemas Computacionales, con un fuerte compromiso hacia el aprendizaje y el desarrollo de habilidades técnicas. Me considero una persona dedicada, con capacidad para trabajar de manera eficiente en equipo y colaborar en proyectos multidisciplinarios. Tengo experiencia en la programación de aplicaciones utilizando lenguajes como Java, JavaScript, HTML y PHP, lo que me permite abordar diversos desafíos en el ámbito del desarrollo web y software. Además, busco continuamente mejorar mis conocimientos y habilidades, enfrentándome a nuevos retos que contribuyan a mi crecimiento profesional.</p>
+                    
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Educacion</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">INSTITUTO TECNOLÓGICO SUPERIOR DE NUEVO CASAS GRANDES</h3>
+                            <div class="subheading mb-3">Ingeniería es Sistemas Computacionales</div>
+                            <div>• Especializada en Tecnologías Emergentes en Desarrollo Web y Aplicaciones Móviles</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2019 - 2024</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">CISCO</h3>
+                            <div class="subheading mb-3">CURSO DE CISCO DE INTRODUCCION A LAS REDES</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">2022</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Lenguajes de programacion y Frameworks</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-java"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-laravel"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-php"></i></li>
+                    </ul>
+                    
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Projects -->
+            <section class="resume-section" id="projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Projectos</h2>
+                    <div class="row mx-2 mb-2">
+                        <div class="col-4">
+                            <div class="card sel" data-bs-toggle="modal" data-bs-target="#exampleModal1" onclick="reprVid(['MisCuentas.mp4','MisCuentas'])">
+                                <div class="card-body p-1">
+                                    <div class="w-100">
+                                        <img src="./assets/img/vid1.png" class="w-100" alt="" srcset="">
+                                    </div>
+                                    <h4 class="text-center">MisCuentas</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-4">
+                            <div class="card sel" data-bs-toggle="modal" data-bs-target="#exampleModal1" onclick="reprVid(['Acuerdos.mp4','Sistema de Registro de Acuerdos'])">
+                                <div class="card-body p-1">
+                                    <div class="w-100">
+                                        <img src="./assets/img/vid2.png" class="w-100" alt="" srcset="">
+                                    </div>
+                                    <h4 class="text-center">Sistema de Registro de Acuerdos</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script src="js/comp.js"></script>
+    </body>
+</html>
